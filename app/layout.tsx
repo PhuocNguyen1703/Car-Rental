@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
-import { roboto } from "@/utils/fonts";
+import { dm_sans } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "Car Rental",
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={roboto}>
+    <html lang="en" className={dm_sans}>
       <body>
           <Header />
           {children}

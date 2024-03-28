@@ -1,10 +1,18 @@
-import { Roboto } from "next/font/google";
+import { DM_Sans, Poppins } from "next/font/google";
 
-const roboto_int = Roboto({
+const dm_sans_init = DM_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
+  weight: ["400", "500", "700"],
   display: "swap",
-  variable: "--font-roboto",
+  variable: "--font-dm_sans",
 });
 
-export const roboto = roboto_int.variable;
+const poppins_init = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  display: "swap",
+  variable: "--font-poppins",
+});
+
+export const dm_sans = dm_sans_init.variable;
+export const poppins = poppins_init.variable;
