@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { dm_sans } from "@/utils/fonts";
 import Navbar from "@/components/navbar/Navbar";
-
+import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Car Rental",
@@ -18,7 +18,8 @@ export default function RootLayout({
     <html lang="en" className={dm_sans}>
       <body>
         <Navbar />
-        <main>{children}</main>
+        {children}
+        <Footer />
       </body>
     </html>
   );
