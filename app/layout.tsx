@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { dm_sans } from "@/utils/fonts";
-import Header from "@/components/header/Header";
-import Modal from "@/components/modals/Modal";
+import Navbar from "@/components/navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "Car Rental",
@@ -17,8 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={dm_sans}>
       <body>
-        <Modal isOpen />
-        <Header />
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
