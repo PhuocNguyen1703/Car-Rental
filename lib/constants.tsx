@@ -6,30 +6,25 @@ export const navLinks = [
 
 export const footerLinks = [
   {
-    title: "About",
+    title: "Company",
     links: [
-      { title: "How it works", url: "/" },
-      { title: "Featured", url: "/" },
-      { title: "Partnership", url: "/" },
-      { title: "Business Relation", url: "/" },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      { title: "Event", url: "/" },
-      { title: "Blog", url: "/" },
-      { title: "Review", url: "/" },
-      { title: "Invite a friend", url: "/" },
+      { title: "About", url: "/" },
+      { title: "Careers", url: "/" },
+      { title: "Contact", url: "/" },
     ],
   },
   {
     title: "Support",
     links: [
       { title: "Account", url: "/" },
-      { title: "Legal", url: "/" },
+      { title: "Payment", url: "/" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
       { title: "Terms & Condition", url: "/" },
-      { title: "Privacy & Policy", url: "/" },
+      { title: "Privacy Policy", url: "/" },
     ],
   },
 ];
