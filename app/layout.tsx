@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={dm_sans}>
-      <body>
+      <body className="flex flex-col">
         <Navbar />
         {children}
         <Footer />

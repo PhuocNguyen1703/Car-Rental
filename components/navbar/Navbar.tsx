@@ -7,7 +7,7 @@ import UserMenu from "./UserMenu";
 
 const Navbar = () => {
   return (
-    <header className=" flex justify-between items-center w-full h-16 px-10 bg-black-200">
+    <header className=" flex justify-between items-center w-full h-[60px] px-10 bg-black-200">
       <Link href="/" className="flex items-center gap-2 ml-2">
         <Logo width={40} height={40} />
         <p className="text-2xl font-bold select-none">HypeHub</p>
