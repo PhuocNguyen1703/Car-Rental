@@ -35,8 +35,8 @@ const Footer = () => {
           <Link href="/">
             <Image
               src="/icons/youtube.svg"
-              height={20}
-              width={25}
+              height={0}
+              width={30}
               alt="youtube"
             />
           </Link>
