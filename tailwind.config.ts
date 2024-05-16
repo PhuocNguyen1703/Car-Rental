@@ -33,6 +33,18 @@ const config = {
           "24px",
           { lineHeight: "36px", fontWeight: "500", letterSpacing: "0" },
         ],
+        subtitle1: [
+          "16px",
+          { lineHeight: "24px", fontWeight: "500", letterSpacing: "0" },
+        ],
+        subtitle2: [
+          "14px",
+          { lineHeight: "21px", fontWeight: "500", letterSpacing: "0" },
+        ],
+        subtitle3: [
+          "16px",
+          { lineHeight: "1", fontWeight: "700", letterSpacing: "0" },
+        ],
         body1: [
           "18px",
           { lineHeight: "26px", fontWeight: "500", letterSpacing: "0" },
