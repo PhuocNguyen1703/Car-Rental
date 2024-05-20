@@ -8,6 +8,17 @@ const config = {
   ],
   theme: {
     extend: {
+      //OTP animation
+      keyframes: {
+        "caret-blink": {
+          "0%,70%,100%": { opacity: "1" },
+          "20%,50%": { opacity: "0" },
+        },
+      },
+      animation: {
+        "caret-blink": "caret-blink 1.25s ease-out infinite",
+      },
+
       fontFamily: {
         sans: ["var(--font-dm_sans)"],
         poppins: ["var(--font-poppins)"],
@@ -62,8 +73,8 @@ const config = {
           { lineHeight: "24px", fontWeight: "400", letterSpacing: "0" },
         ],
         caption1: [
-          "14px",
-          { lineHeight: "20px", fontWeight: "500", letterSpacing: "0" },
+          "16px",
+          { lineHeight: "20px", fontWeight: "400", letterSpacing: "0" },
         ],
         caption2: [
           "14px",
