@@ -96,9 +96,9 @@ const SignInForm = () => {
         <Button className="w-full h-12 mt-5 bg-blue-500" type="submit">
           <p className="text-btn-lg text-[#FFFAF7]">Sign in</p>
         </Button>
-        <p className="mt-5 text-center">
+        <p className="mt-6 text-center text-caption1 text-[#84878B]">
           Don&apos;t have an account?
-          <strong className=" text-blue-500 font-medium cursor-pointer">
+          <strong className="ml-1 text-blue-500 text-subtitle3 cursor-pointer">
             Sign up
           </strong>
         </p>
