@@ -26,19 +26,19 @@ const config = {
       fontSize: {
         hero: [
           "64px",
-          { lineHeight: "80px", fontWeight: "700", letterSpacing: "-0.5%" },
+          { lineHeight: "80px", fontWeight: "700", letterSpacing: "-0.5" },
         ],
         headline1: [
           "48px",
-          { lineHeight: "70px", fontWeight: "700", letterSpacing: "-0.5%" },
+          { lineHeight: "70px", fontWeight: "700", letterSpacing: "0" },
         ],
         headline2: [
           "40px",
-          { lineHeight: "60px", fontWeight: "700", letterSpacing: "-0.5%" },
+          { lineHeight: "60px", fontWeight: "700", letterSpacing: "0" },
         ],
         headline3: [
           "34px",
-          { lineHeight: "44px", fontWeight: "500", letterSpacing: "-0.5%" },
+          { lineHeight: "44px", fontWeight: "500", letterSpacing: "0" },
         ],
         headline4: [
           "24px",
@@ -150,10 +150,6 @@ const config = {
           300: "#cbd1d6",
           100: "#edf0f2",
         },
-      },
-      backgroundImage: {
-        "gradient-to-100":
-          "linear-gradient(100deg,#FFFFFF 0.27%,rgba(196, 196, 196, 0) 56.85%)",
       },
     },
   },
