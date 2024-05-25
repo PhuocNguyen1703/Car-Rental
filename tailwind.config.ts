@@ -25,8 +25,8 @@ const config = {
       },
       fontSize: {
         hero: [
-          "80px",
-          { lineHeight: "100px", fontWeight: "700", letterSpacing: "-0.5%" },
+          "64px",
+          { lineHeight: "80px", fontWeight: "700", letterSpacing: "-0.5%" },
         ],
         headline1: [
           "48px",
@@ -150,6 +150,10 @@ const config = {
           300: "#cbd1d6",
           100: "#edf0f2",
         },
+      },
+      backgroundImage: {
+        "gradient-to-100":
+          "linear-gradient(100deg,#FFFFFF 0.27%,rgba(196, 196, 196, 0) 56.85%)",
       },
     },
   },
