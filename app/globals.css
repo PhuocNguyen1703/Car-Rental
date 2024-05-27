@@ -7,6 +7,31 @@ body,
 :root {
   height: 100%;
   font-family: var(--font-dm_sans);
+
+  /* color */
+  --background: #ffffff;
+  --switch-bg: #9ca3af;
+  --menu-dropdown-bg: #ffffff;
+  --menu-dropdown-text: #111827;
+  --checkout-bg: #ffffff;
+  --bottom-nav-icon: #8c969f;
+  --header-bg: transparent;
+  --header-text: #111827;
+  --header-bg-scroll: #ffffff;
+  --header-text-scroll: #111827;
+  --border-primary: #e5e7eb;
+  --text-primary: #111827;
+  --text-secondary: #4a5568;
+  --bg-form: #ffffff;
+  --bg-list: #f3f4f6;
+  --divider: #e5e7eb;
+  --input-clr: #6b7280;
+  --icon-clr: #4b5563;
+  --paragraph-primary: #4b5563;
+
+  /* Dark mode*/
+  --dark-text: #2d3748;
+  --dark-bg: #f3f4f6;
 }
 
 /* custom FontSize */
