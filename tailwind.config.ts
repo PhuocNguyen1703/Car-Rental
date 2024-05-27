@@ -56,10 +56,6 @@ const config = {
           "16px",
           { lineHeight: "1", fontWeight: "700", letterSpacing: "0" },
         ],
-        body1: [
-          "18px",
-          { lineHeight: "26px", fontWeight: "500", letterSpacing: "0" },
-        ],
         body2: [
           "18px",
           { lineHeight: "26px", fontWeight: "400", letterSpacing: "0" },
@@ -71,10 +67,6 @@ const config = {
         body4: [
           "16px",
           { lineHeight: "24px", fontWeight: "400", letterSpacing: "0" },
-        ],
-        caption1: [
-          "16px",
-          { lineHeight: "20px", fontWeight: "400", letterSpacing: "0" },
         ],
         caption2: [
           "14px",

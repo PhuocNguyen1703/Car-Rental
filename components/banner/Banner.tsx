@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import SearchBar from "./search-bar/SearchBar";
 
 const Banner = () => {
   return (
@@ -22,6 +23,7 @@ const Banner = () => {
           className="absolute inset-0 object-cover"
         />
       </div>
+      <SearchBar />
     </section>
   );
 };
