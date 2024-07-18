@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { dm_sans, poppins } from "@/utils/fonts";
+import { dm_sans, poppins, roboto } from "@/utils/fonts";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${dm_sans} ${poppins}`}>
+    <html lang="en" className={`${roboto} ${dm_sans} ${poppins}`}>
       <body>
         <Navbar />
         {children}

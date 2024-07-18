@@ -6,7 +6,7 @@ html,
 body,
 :root {
   height: 100%;
-  font-family: var(--font-dm_sans);
+  font-family: var(--font-roboto);
 
   /* color */
   --background: #ffffff;
