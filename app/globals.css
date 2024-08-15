@@ -35,17 +35,46 @@ body,
 }
 
 /* custom FontSize */
+.text-hero {
+  font-size: 100px;
+  line-height: 80px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.text-headline1 {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.text-headline2 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.text-headline3 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+.text-headline4 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
 .text-body1 {
   font-size: 18px;
   line-height: 26px;
-  letter-spacing: 0;
   font-weight: 500;
 }
 
 .text-caption1 {
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0;
   font-weight: 400;
 }
 

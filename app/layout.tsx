@@ -16,10 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${roboto} ${dm_sans} ${poppins}`}>
-      <body>
+      <body className="w-[1280px] mx-auto border">
         <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );

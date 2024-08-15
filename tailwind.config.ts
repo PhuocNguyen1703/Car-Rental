@@ -25,26 +25,6 @@ const config = {
         poppins: ["var(--font-poppins)"],
       },
       fontSize: {
-        hero: [
-          "64px",
-          { lineHeight: "80px", fontWeight: "700", letterSpacing: "-0.5" },
-        ],
-        headline1: [
-          "48px",
-          { lineHeight: "70px", fontWeight: "700", letterSpacing: "0" },
-        ],
-        headline2: [
-          "40px",
-          { lineHeight: "60px", fontWeight: "700", letterSpacing: "0" },
-        ],
-        headline3: [
-          "34px",
-          { lineHeight: "44px", fontWeight: "500", letterSpacing: "0" },
-        ],
-        headline4: [
-          "24px",
-          { lineHeight: "36px", fontWeight: "500", letterSpacing: "0" },
-        ],
         subtitle1: [
           "16px",
           { lineHeight: "24px", fontWeight: "500", letterSpacing: "0" },

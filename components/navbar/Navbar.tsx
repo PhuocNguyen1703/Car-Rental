@@ -8,10 +8,10 @@ import UserMenu from "./UserMenu";
 const Navbar = () => {
   return (
     <header className="sticky flex items-center top-0 inset-x-0 z-30">
-      <div className="flex justify-between items-center min-w-[1280px] h-[80px] px-5 mx-auto">
+      <div className="flex justify-between items-center w-full h-[80px] px-5">
         <Link href="/" className="flex items-center gap-2 ml-2">
           <Logo width={40} height={40} />
-          <p className="text-3xl font-bold select-none">Fuji</p>
+          <p className="text-4xl font-bold select-none">Fuji</p>
         </Link>
         <div className="flex items-center">
           {navLinks.map((link) => (
