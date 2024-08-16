@@ -9,73 +9,23 @@ body,
   font-family: var(--font-roboto);
 
   /* color */
-  --background: #ffffff;
-  --switch-bg: #9ca3af;
-  --menu-dropdown-bg: #ffffff;
-  --menu-dropdown-text: #111827;
-  --checkout-bg: #ffffff;
-  --bottom-nav-icon: #8c969f;
-  --header-bg: transparent;
-  --header-text: #111827;
-  --header-bg-scroll: #ffffff;
-  --header-text-scroll: #111827;
-  --border-primary: #e5e7eb;
-  --text-primary: #111827;
-  --text-secondary: #4a5568;
-  --bg-form: #ffffff;
-  --bg-list: #f3f4f6;
-  --divider: #e5e7eb;
-  --input-clr: #6b7280;
-  --icon-clr: #4b5563;
-  --paragraph-primary: #4b5563;
-
-  /* Dark mode*/
-  --dark-text: #2d3748;
-  --dark-bg: #f3f4f6;
-}
-
-/* custom FontSize */
-.text-hero {
-  font-size: 100px;
-  line-height: 80px;
-  letter-spacing: 0;
-  font-weight: 700;
-}
-
-.text-headline1 {
-  font-size: 48px;
-  line-height: 70px;
-  font-weight: 700;
-}
-
-.text-headline2 {
-  font-size: 40px;
-  line-height: 60px;
-  font-weight: 700;
-}
-
-.text-headline3 {
-  font-size: 34px;
-  line-height: 44px;
-  font-weight: 500;
-}
-
-.text-headline4 {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 500;
-}
-
-.text-body1 {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 500;
-}
-
-.text-caption1 {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
+  --brand-color: #111827;
+  --dark-text-color: #2d3748;
+  --light-text-color: #4b5563;
+  --lighter-text-color: #ffffff;
+  --main-border-color: #dfdfdf;
+  --light-border-color: #e5e7eb;
+  --background-color: #ffffff;
+  --dark-bg-color: #f3f4f6;
+  --switch-bg-color: #9ca3af;
+  --menu-dropdown-bg-color: #ffffff;
+  --menu-dropdown-text-color: #111827;
+  --checkout-bg-color: #ffffff;
+  --bottom-nav-bg-color: #ffffff;
+  --bottom-nav-icon-color: #8c969f;
+  --header-text-color: #111827;
+  --header-bg-scroll-color: #ffffff;
+  --header-text-scroll-color: #111827;
 }
 
 .inset-center {
