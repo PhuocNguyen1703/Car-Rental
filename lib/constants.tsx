@@ -1,9 +1,10 @@
 export const navLinks = [
-  { label: "SERVICES", url: "/" },
-  { label: "VEHICLES", url: "/" },
-  { label: "OUR BENEFITS", url: "/" },
-  { label: "TESTIMONIALS", url: "/" },
-  { label: "STATIONS", url: "/" },
+  { title: "SERVICES", href: "/services" },
+  { title: "VEHICLES", href: "/vehicles" },
+  { title: "ABOUT", href: "/about" },
+  { title: "NEWS", href: "/news" },
+  { title: "FAQ", href: "/faq" },
+  { title: "CONTACT US", href: "/" },
 ];
 
 export const footerLinks = [
